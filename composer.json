@@ -1,0 +1,9 @@
+{
+    "name": "www/churrascowl",
+    "autoload": {
+        "psr-4":{
+            "App\\":"app/"
+        }
+
+    }
+}

@@ -1,0 +1,183 @@
+$wlcolor: #004861;
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    main{
+        width: 100%;
+    }
+    .header-wl {
+        height: 188px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        padding-left: 28px;
+        background-color: $wlcolor;
+        background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+            url('imagens/churrasco.jpg');
+        width: 80%;
+        height: 400px;
+        background-size: cover;
+        color: white;
+        padding: 20px;
+        width: 100%;
+        height: 244px;
+
+        .div-titulo {
+            display: flex;
+            flex-wrap: wrap;
+            width: 90%;
+            padding-left: 25px;
+            z-index: 10;
+
+            h1 {
+                width: 100%;
+                flex-wrap: wrap;
+                height: 35px;
+                z-index: 10;
+            }
+
+            p {
+                width: 100%;
+                font-size: 1.5em;
+                z-index: 10;
+            }
+        }
+
+        .div-logo {
+            width: 10%;
+            z-index: 10;
+
+            img {
+                width: 100%;
+                z-index: 10;
+            }
+        }
+
+    }
+
+    .div-btn-voltar {
+
+        margin-top: 43px;
+
+
+    }
+
+
+
+    .btn-success {
+        color: #fff;
+        background-color: #000000;
+        border-color: #ffffff;
+    }
+
+    .form-group {
+        margin: 20px;
+
+        label {
+            margin-bottom: 5px;
+        }
+
+        .div-form-check {}
+
+        .form-check-inline {
+            margin-right: 0rem !important;
+        }
+    }
+
+    .row-titles {
+        background: #C9C9C9;
+    }
+.footer{
+    flex-shrink: 0;
+    width: 100%;
+align-items: flex-end;
+    .footer-wl {
+        flex-shrink: 0;
+        background-image: url(../images/footer-bg.jpg);
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        height: 250px;
+        margin-top: 18px;
+        display: flex;
+        align-items: center;
+        margin-top: 18px;
+bottom: 0;
+        .div-titulo{
+            width: 100%;
+    text-align: center;
+    align-items: center;
+            a{
+                img{
+                    width: 5%;
+                }
+            }
+
+        }
+
+    }
+}
+
+
+
+
+
+    // [type="radio"]:checked,
+    // [type="radio"]:not(:checked) {
+    //     position: absolute;
+    //     left: -9999px;
+    // }
+
+    // [type="radio"]:checked+label,
+    // [type="radio"]:not(:checked)+label {
+    //     position: relative;
+    //     padding-left: 28px;
+    //     cursor: pointer;
+    //     line-height: 20px;
+    //     display: inline-block;
+    //     color: #666;
+    // }
+
+    // [type="radio"]:checked+label:before,
+    // [type="radio"]:not(:checked)+label:before {
+    //     content: '';
+    //     position: absolute;
+    //     left: 0;
+    //     top: 0;
+    //     width: 18px;
+    //     height: 18px;
+    //     border: 1px solid #ddd;
+    //     border-radius: 100%;
+    //     background: #fff;
+    // }
+
+    // [type="radio"]:checked+label:after,
+    // [type="radio"]:not(:checked)+label:after {
+    //     content: '';
+    //     width: 12px;
+    //     height: 12px;
+    //     background: #F87DA9;
+    //     position: absolute;
+    //     top: 4px;
+    //     left: 4px;
+    //     border-radius: 100%;
+    //     -webkit-transition: all 0.2s ease;
+    //     transition: all 0.2s ease;
+    // }
+
+    // [type="radio"]:not(:checked)+label:after {
+    //     opacity: 0;
+    //     -webkit-transform: scale(0);
+    //     transform: scale(0);
+    // }
+
+    // [type="radio"]:checked+label:after {
+    //     opacity: 1;
+    //     -webkit-transform: scale(1);
+    //     transform: scale(1);
+    // }
+
+}
